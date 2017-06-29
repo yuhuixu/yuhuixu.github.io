@@ -1,0 +1,123 @@
+<div class="about row">
+
+    <div class="col-md-8">
+
+        <h2>About Me</h2>
+
+        <h4>　　目前就读于河南大学网络工程系大二年级，熟悉Java语言，并对Web开发有浓厚的兴趣。此博客用于记录学习笔记和总结，分享学习经验以及优秀的开源项目。</h4>
+
+        <h2>Contact</h2>
+
+	<h4><ul>
+            <li>QQ：<a href="tencent://message/?uin=158237627&Site=Sambow&Menu=yes">158237627</a></li>
+            <li>GitHub：<a href="https://github.com/Z-Beatles">Wayne Chu</a></li>
+            <li>OneNote：<a href="https://1drv.ms/u/s!AjD2d33heRm5iFyJ-ieTbnAxrHd5">OneNote笔记</a></li>
+            <li>个人网站：<a href="http://www.topblog.top">www.topblog.top</a></li>
+            <li>Email：<a href="mailto:{{ site.email }}" target="_top">{{ site.email }}</a></li>
+        </ul></h4>
+
+        <h2>Skill Keywords</h2>
+
+        {% if site.skill_Java_keywords %}
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Java Keywords</h3>
+            </div>
+            <div class="panel-body">
+                {% for keyword in site.skill_Java_keywords %}
+                <button class="btn btn-default" type="button">{{ keyword }}</button>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        {% if site.skill_Tools_keywords %}
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Tools Keywords</h3>
+            </div>
+            <div class="panel-body">
+                {% for keyword in site.skill_Tools_keywords %}
+                <button class="btn btn-default" type="button">{{ keyword }}</button>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        {% if site.skill_Web_keywords %}
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Web Keywords</h3>
+            </div>
+            <div class="panel-body">
+                {% for keyword in site.skill_Web_keywords %}
+                <button class="btn btn-default" type="button">{{ keyword }}</button>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        {% if site.skill_Android_keywords %}
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Android Keywords</h3>
+            </div>
+            <div class="panel-body">
+                {% for keyword in site.skill_Android_keywords %}
+                <button class="btn btn-default" type="button">{{ keyword }}</button>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        {% if site.skill_Computer_Network_keywords %}
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Computer Network Keywords</h3>
+            </div>
+            <div class="panel-body">
+                {% for keyword in site.skill_Computer_Network_keywords %}
+                <button class="btn btn-default" type="button">{{ keyword }}</button>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        {% if site.skill_SQL_keywords %}
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">SQL Keywords</h3>
+            </div>
+            <div class="panel-body">
+                {% for keyword in site.skill_SQL_keywords %}
+                <button class="btn btn-default" type="button">{{ keyword }}</button>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        {% if site.skill_OS_keywords %}
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">OS Keywords</h3>
+            </div>
+            <div class="panel-body">
+                {% for keyword in site.skill_OS_keywords %}
+                <button class="btn btn-default" type="button">{{ keyword }}</button>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        <br/>
+        <hr>
+        <h2  id="jump">留言板</h2>
+        <br/>
+        <!-- Comments-->
+        {% include disqus-comments.html %}
+    </div>
+    
+    <div class="col-md-4">
+        {% include sidebar-popular-repo.html %}
+    </div>
+</div>

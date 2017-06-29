@@ -1,0 +1,90 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: 甲壳虫爱上了夏天
+name: Wayne Chu
+email: waynechu@waynechu.cn
+location: Jiangxi, China
+company: Henan University
+company_url: http://www.henu.edu.cn/
+github_url: https://github.com/Z-Beatles
+description: This is a personal website of Wayne Chu | 个人博客，用于记录学习笔记
+favicon: favicon.png # Image must be in assets/images
+url: http://waynechu.cn # the base hostname & protocol for your site
+
+## Gem
+gems:
+  - jekyll-paginate
+  - jekyll-geo-pattern
+  - rouge
+  - kramdown
+  - jekyll-github-metadata
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+
+source: .
+destination: ./_site
+
+quiet: false
+defaults: []
+
+kramdown:
+  input: GFM
+  enable_coderay: true
+
+# Disque
+disque: z-beatles.disqus.com
+
+# Pagination
+paginate: 8
+paginate_path: 'page:num'
+
+# Navigation
+navs:
+  -
+    href: /
+    label: Home
+
+  -
+    href: /open-source
+    label: Open-Source
+
+  -
+    href: /blog
+    label: Blog
+
+  -
+    href: /bookmark
+    label: Bookmark
+
+  -
+    href: /about
+    label: About
+
+# Sidebar to show popular repo
+side_bar_repo_limit: 5 # Number of repos to show
+
+# Google Analytics
+# analytics :
+#   provider : google
+#   google :
+#       tracking_id : 'UA-72165600-1'
+
+
+# For about.html. Fell free to create your own!
+skill_Java_keywords: [DBCP, Socket, c3p0, Struts2, Spring, SpringMVC, Mybatis, Maven, Json]
+skill_Tools_keywords: [OneNote, Git, ShadowSocks, Axure, Rational Rose, Navicat]
+skill_Web_keywords: [HTML, CSS, JavaScript, Bootstrap, CommonJs, AJAX, Tomcat, Nginx]
+skill_Android_keywords: [Android]
+skill_Computer_Network_keywords: [IP, TCP, UDP, HTTP]
+skill_SQL_keywords: [My SQL, SQL server, Oracle SQL, nosql]
+skill_OS_keywords: [Ubuntu, Redhat]
