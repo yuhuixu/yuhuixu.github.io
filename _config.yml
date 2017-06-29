@@ -6,16 +6,16 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: 甲壳虫爱上了夏天
-name: Wayne Chu
-email: waynechu@waynechu.cn
-location: Jiangxi, China
-company: Henan University
-company_url: http://www.henu.edu.cn/
-github_url: https://github.com/Z-Beatles
-description: This is a personal website of Wayne Chu | 个人博客，用于记录学习笔记
+title: YuhuiXu
+name: YuhuiXu
+email: xyh421@qq.com
+location: ShangHai, China
+company: ZZl
+#company_url: http://www.henu.edu.cn/
+github_url: https://github.com/yuhuixu
+description: This is a personal website of YuhuiXu | 个人博客，用于记录学习笔记
 favicon: favicon.png # Image must be in assets/images
-url: http://waynechu.cn # the base hostname & protocol for your site
+#url: http://waynechu.cn # the base hostname & protocol for your site
 
 ## Gem
 gems:
@@ -42,7 +42,7 @@ kramdown:
   enable_coderay: true
 
 # Disque
-disque: z-beatles.disqus.com
+disque: 1111z-beatles.disqus.com
 
 # Pagination
 paginate: 8
