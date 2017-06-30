@@ -4,6 +4,9 @@ title: Bookmarks
 subtitle: <span class="mega-octicon octicon-repo"></span>&nbsp;&nbsp; To mark useful libs - tools - books
 menu: Bookmark
 ---
+## Python
+- [PegasusWang](https://github.com/yuhuixu/python-web-guide) - python-web-guide
+- [robotframework](https://github.com/robotframework/robotframework) - Robot Framework
 
 ## Books 
 
