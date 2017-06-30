@@ -9,7 +9,7 @@ css: ['index.css', 'sidebar-popular-repo.css']
         <div id="jumbotron-meta-info">
             <span class="meta-info hvr-grow">
                 <span class="octicon octicon-location"></span>
-                <a href="http://j.map.baidu.com/84ABC" target="_blank">{{ site.location }}</a>
+                <a href="{{ site.local_url}}" target="_blank">{{ site.location }}</a>
             </span>
             <span class="meta-info hvr-grow">
                 <span class="octicon octicon-organization"></span>
@@ -21,7 +21,7 @@ css: ['index.css', 'sidebar-popular-repo.css']
             </span>
             <span class="meta-info hvr-grow">
                 <span class="octicon octicon-mark-github"></span>
-                <a href="{{ site.github_url }}" target="_blank">@{{ site.name }}</a>
+                <a href="{{ site.github_url }}" target="_blank">{{ site.name }}</a>
             </span>
         </div>
     </div>

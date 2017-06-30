@@ -9,6 +9,8 @@
 title: YuhuiXu
 name: YuhuiXu
 email: xyh421@qq.com
+#local_url: http://j.map.baidu.com/uHv5B #baidu map
+local_url: https://goo.gl/maps/djooV4kwjSx #google map
 location: ShangHai, China
 company: Fintecher
 company_url: http://www.fintecher.cn/
