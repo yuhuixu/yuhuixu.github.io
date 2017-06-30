@@ -134,5 +134,5 @@ sudo ssserver -p 443 -k yourpassword -m aes-256-cfb --user nobody -d start
 ![youtube](http://img.blog.csdn.net/20160819235904373)
 
 
-> 如有疑问请留言或者给我来信。 E-mail:  waynechu@waynechu.cn
+> 如有疑问请留言或者给我来信。 E-mail:  yuhuixu@yuhuixu.cn
 

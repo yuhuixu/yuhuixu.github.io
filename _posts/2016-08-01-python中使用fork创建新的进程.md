@@ -23,7 +23,7 @@ except OSError:
 输出如下
 
 ```shell
-wayne@Z-Beatles:~/python$ python demo
+wayne@yuhuixu:~/python$ python demo
 <type 'int'>
 <type 'int'>
 ```

@@ -15,7 +15,7 @@ company_url: http://www.fintecher.cn/
 github_url: https://github.com/yuhuixu
 description: This is a personal website of YuhuiXu | 个人博客，用于记录学习笔记
 favicon: favicon.png # Image must be in assets/images
-#url: http://waynechu.cn # the base hostname & protocol for your site
+#url: http://yuhuixu.cn # the base hostname & protocol for your site
 
 ## Gem
 gems:
@@ -42,7 +42,7 @@ kramdown:
   enable_coderay: true
 
 # Disque
-disque: 1111z-beatles.disqus.com
+disque: 1111yuhuixu.disqus.com
 
 # Pagination
 paginate: 8
