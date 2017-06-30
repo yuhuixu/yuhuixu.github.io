@@ -182,19 +182,20 @@ Log，Run keyword if以及数据类型等等
 RF官网
 http://robotframework.org/
 
-github
-https://github.com/robotframework/Selenium2Library
-https://github.com/piaoransk/robotframework-appiumlibrary
-appiumlibrary 官网
+## Github
+[Selenium2Library](https://github.com/robotframework/Selenium2Library)
 
-FAQ
+[AppiumLibrary](https://github.com/piaoransk/robotframework-appiumlibrary)
+
+
+## FAQ
 
 1. Pip安装失败，连接不上服务器
-使用镜像的方法可以在每次执行pip的时候加上参数”-i http://e.pypi.python.org/simple“即可，
-或者也可以在本地配置，这样就不用每次都加上参数了，应用Cheer Xiao的配置（http://blog.makto.me/post/2012-11-01/pypi-mirror）：
-[global]
+使用镜像的方法可以在每次执行pip的时候加上参数"-i http://e.pypi.python.org/simple "即可，
+或者也可以在本地配置，这样就不用每次都加上参数了，应用Cheer Xiao的配置:http://blog.makto.me/post/2012-11-01/pypi-mirror
 
-index-url=http://mirrors.tuna.tsinghua.edu.cn/pypi/simple
+  `[global]
+index-url=http://mirrors.tuna.tsinghua.edu.cn/pypi/simpl`
 2. 问题异常: ‘ascii’ codec can’t encode characters
 “C:\Python27\lib\site-packages\pip-8.1.2-py2.7.egg\pip_vendor\colorama\ansitowin32.py”, line 174, in write_plain_text
 self.wrapped.write(text[start:end])
@@ -220,60 +221,4 @@ http://note.youdao.com/noteshare?id=3842ebf1411a12f1fc49e2e2e5bc49c9
 8. 用pybot命令有3种执行RF用例的方式：
 http://note.youdao.com/noteshare?id=b1d1f4b6c1739c74fff7da24b16bfda7
 9.更多分享
-http://note.youdao.com/noteshare?id=d33942274ccaaa9cb4e07440c9fd0136
-
-
-
-
-
-
-
-
-FAQ
-1.	Pip安装失败，连接不上服务器
-使用镜像的方法可以在每次执行pip的时候加上参数"-i http://e.pypi.python.org/simple"即可，
-或者也可以在本地配置，这样就不用每次都加上参数了，应用Cheer Xiao的配置（http://blog.makto.me/post/2012-11-01/pypi-mirror）：
-[plain] view plain copy
-
-1.	使用pip的用户可以如下配置：  
-2.	  
-3.	在unix和macos，配置文件为：$HOME/.pip/pip.conf  
-4.	在windows上，配置文件为：%HOME%\pip\pip.ini  
-5.	  
-6.	需要在配置文件内加上：  
-7.	  
-8.	[global]  
-9.	index-url=http://mirrors.tuna.tsinghua.edu.cn/pypi/simple  
-2.	"C:\Python27\lib\site-packages\pip-8.1.2-py2.7.egg\pip\_vendor\colorama\ansitowin32.py", line 174, in write_plain_text
-    self.wrapped.write(text[start:end])
-UnicodeEncodeError: 'ascii' codec can't encode character u'\u258a' in position 8: ordinal not in range(128)
-python解决 'ascii' codec can't encode characters
-博客分类：
-•	python
-
-异常: 'ascii' codec can't encode characters
-
-字符集的问题，在文件前加两句话：
-
-reload(sys)
-sys.setdefaultencoding( "utf-8" )
-
-完美解决，ok
-
-领 当字符串里有 \n、\t、\r时，json.loads()失效，异常，要去掉
-3.	pip的安装
-先安装setuptools
-4.	Unable to find vcvarsall.bat？？？安装vs2008或者更新新版本都可以
-http://stackoverflow.com/questions/2817869/error-unable-to-find-vcvarsall-bat
-http://blog.csdn.net/secretx/article/details/17472107
-
-5.	如何开发系统关键字
-http://note.youdao.com/noteshare?id=32cb67775f6ee73642c4ff768b581853
-6.	如何定位元素
-http://note.youdao.com/noteshare?id=3842ebf1411a12f1fc49e2e2e5bc49c9
-7.	多个元素如何定位
-
-8.	用pybot命令有3种执行RF用例的方式：
-http://note.youdao.com/noteshare?id=b1d1f4b6c1739c74fff7da24b16bfda7
-9.	更多分享
 http://note.youdao.com/noteshare?id=d33942274ccaaa9cb4e07440c9fd0136
