@@ -4,7 +4,7 @@
 
         <h2>About Me</h2>
 
-        <h4>　　自动化测试开发工程师</h4>
+        <h4>　　AutomationTest(自动化测试开发工程师)</h4>
 
         <h2>Contact</h2>
 
@@ -19,13 +19,26 @@
 
         <h2>Skill Keywords</h2>
 
-        {% if site.skill_Java_keywords %}
+        {% if site.skill_programe_lanage %}
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">Java Keywords</h3>
+                <h3 class="panel-title">Program Language</h3>
             </div>
             <div class="panel-body">
-                {% for keyword in site.skill_Java_keywords %}
+                {% for keyword in site.skill_programe_lanage %}
+                <button class="btn btn-default" type="button">{{ keyword }}</button>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        {% if site.skill_automation %}
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Automation keywords</h3>
+            </div>
+            <div class="panel-body">
+                {% for keyword in site.skill_automation %}
                 <button class="btn btn-default" type="button">{{ keyword }}</button>
                 {% endfor %}
             </div>

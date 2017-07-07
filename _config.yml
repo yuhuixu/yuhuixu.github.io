@@ -8,7 +8,7 @@
 # Site settings
 title: YuhuiXu
 name: YuhuiXu
-email: xyh421@qq.com
+email: xyh421@gmail.com
 #local_url: http://j.map.baidu.com/uHv5B #baidu map
 local_url: https://goo.gl/maps/djooV4kwjSx #google map
 location: ShangHai, China
@@ -85,10 +85,12 @@ side_bar_repo_limit: 5 # Number of repos to show
 
 
 # For about.html. Fell free to create your own!
-skill_Java_keywords: [DBCP, Socket, c3p0, Struts2, Spring, SpringMVC, Mybatis, Maven, Json]
-skill_Tools_keywords: [OneNote, Git, ShadowSocks, Axure, Rational Rose, Navicat]
-skill_Web_keywords: [HTML, CSS, JavaScript, Bootstrap, CommonJs, AJAX, Tomcat, Nginx]
-skill_Android_keywords: [Android]
-skill_Computer_Network_keywords: [IP, TCP, UDP, HTTP]
-skill_SQL_keywords: [My SQL, SQL server, Oracle SQL, nosql]
-skill_OS_keywords: [Ubuntu, Redhat]
+skill_programe_lanage: [Python, JAVA]
+skill_automation: [RobotFramework, Uiautomator, Sikuli]
+# skill_Java_keywords: [DBCP, Socket, c3p0, Struts2, Spring, SpringMVC, Mybatis, Maven, Json]
+skill_Tools_keywords: [Git, SVN, Eclipse, Pycharm]
+skill_Web_keywords: [HTML, CSS, JavaScript, Selenium]
+skill_Android_keywords: [Android, Monkey, MonkeyRunner]
+skill_Computer_Network_keywords: [ HTTP]
+skill_SQL_keywords: [mysql, PostgreSQL]
+skill_OS_keywords: [Ubuntu, Win]
