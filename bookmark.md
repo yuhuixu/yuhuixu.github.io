@@ -4,11 +4,16 @@ title: Bookmarks
 subtitle: <span class="mega-octicon octicon-repo"></span>&nbsp;&nbsp; To mark useful libs - tools - books
 menu: Bookmark
 ---
+## 算法
+- [projecteuler英文](https://projecteuler.net/archives) - projecteuler,各种编程题网站,英文
+- [projecteuler中文](http://pe-cn.github.io/) - projecteuler中文版本
+- [Kleinberg.Tardos.Algorithm.Design.pdf](http://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/01StableMatching.pdf) - Kleinberg.Tardos.Algorithm.Design.pdf
+
 ## Python
 - [PegasusWang](https://github.com/yuhuixu/python-web-guide) - python-web-guide
 - [robotframework](https://github.com/robotframework/robotframework) - Robot Framework
-
-## Books 
+- [Zhihu收藏夹](https://www.zhihu.com/collection/98579969) - 知乎收藏夹
+## Books
 
 - [阿里巴巴Java开发手册正式版](http://www.topblog.top/books/)  
 这套Java统一规范标准将有助于提高行业编码规范化水平，帮助行业人员提高开发质量和效率、大大降低代码维护成本。  
@@ -67,6 +72,3 @@ Welcome to my group - ["The feet of water just fine"](http://www.ratatype.com/gr
 - [Trip.js](http://eragonj.github.io/Trip.js/index.html) - Help you customize a tutorial trip easily with more flexibilities
 - [Moment.js](http://momentjs.com/) - Parse, validate, manipulate, and display dates in JavaScript
 - [Underscore.js](http://underscorejs.org/) - It provides a whole mess of useful functional programming helpers without extending any built-in objects
-
-
-
